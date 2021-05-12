@@ -1,8 +1,12 @@
-# docker
-Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications.
-Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security allow you to run many containers simultaneously on a given host
+## docker
+- Docker is an open platform for developing, shipping, and running applications. 
+- Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. 
+- With Docker, you can manage your infrastructure in the same ways you manage your applications.
+- Docker provides the ability to package and run an application in a loosely isolated environment called a container. 
+- The isolation and security allow you to run many containers simultaneously on a given host
+- 
 ## Container:
-  a container is simply another process on your machine that has been isolated from all other processes on the host machine. It has its own process, network and mounts
+- a container is simply another process on your machine that has been isolated from all other processes on the host machine. It has its own process, network and mounts
 
 
 ## commands
@@ -30,4 +34,4 @@ Docker provides the ability to package and run an application in a loosely isola
 
 ## Layered architecture
 
-15. https://docs.docker.com/get-started/#what-is-a-container
+1. https://docs.docker.com/get-started/#what-is-a-container
