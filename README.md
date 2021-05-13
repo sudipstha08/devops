@@ -32,6 +32,18 @@
 ## Docker images
 - When docker build image, it builds in a layered architecture. Each line of instructions in a `Dockerfile` creates a new layer
 
+## Storage drivers
+- AUFS `default for ubuntu`
+- ZFS
+- BTRFS
+- Device Mapper
+- Overlay
+- Overlay2
+
+## Docker compose
+- Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration
 ## Layered architecture
+## docker registry
+ - central repository of all docker images
 
 1. https://docs.docker.com/get-started/#what-is-a-container
