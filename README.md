@@ -4,8 +4,8 @@
 - With Docker, you can manage your infrastructure in the same ways you manage your applications.
 - provides the ability to package and run an application in a loosely isolated environment called a container. 
 - The isolation and security allow you to run many containers simultaneously on a given host
-- 
-## Container:
+  
+## Container
 - a `container` is simply another process on your machine that has been isolated from all other processes on the host machine. It has its own process, network and mounts
 
 
@@ -29,12 +29,16 @@
 15. docker build Dockerfile
 16. docker inspect
 17. docker login private-registry.io   
+18. docker run --cpus=.5 ubuntu -> limits cpu usage to 50%
+19. docker run --memory=100m ubuntu -> limits memoru usage to 100MB
+20. docker-compose up
 
 ### Deploy private registry
-1. docker run -d -p 5000:5000 --name registry registry:2
-2. docker image tag my-image localhost:5000/my-image
-3. docker push localhost:5000/my-image
-
+```
+- docker run -d -p 5000:5000 --name registry registry:2
+- docker image tag my-image localhost:5000/my-image
+- docker push localhost:5000/my-image
+```
 
 
 ## Docker images
