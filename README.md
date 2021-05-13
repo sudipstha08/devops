@@ -1,5 +1,4 @@
-## Docker
-<img src="https://miro.medium.com/max/2404/1*JUOITpaBdlrMP9D__-K5Fw.png"></img>
+<img src="https://miro.medium.com/max/2404/1*JUOITpaBdlrMP9D__-K5Fw.png" height="100"></img>
 - `Docker` is an open platform for developing, shipping, and running applications. 
 - enables you to separate your applications from your infrastructure so you can deliver software quickly. 
 - With Docker, you can manage your infrastructure in the same ways you manage your applications.
