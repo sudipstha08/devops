@@ -1,12 +1,13 @@
-## docker
-- Docker is an open platform for developing, shipping, and running applications. 
-- Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. 
+## Docker
+<img src="https://miro.medium.com/max/2404/1*JUOITpaBdlrMP9D__-K5Fw.png"></img>
+- `Docker` is an open platform for developing, shipping, and running applications. 
+- enables you to separate your applications from your infrastructure so you can deliver software quickly. 
 - With Docker, you can manage your infrastructure in the same ways you manage your applications.
-- Docker provides the ability to package and run an application in a loosely isolated environment called a container. 
+- provides the ability to package and run an application in a loosely isolated environment called a container. 
 - The isolation and security allow you to run many containers simultaneously on a given host
 - 
 ## Container:
-- a container is simply another process on your machine that has been isolated from all other processes on the host machine. It has its own process, network and mounts
+- a `container` is simply another process on your machine that has been isolated from all other processes on the host machine. It has its own process, network and mounts
 
 
 ## commands
@@ -28,6 +29,14 @@
 14. docker run -p 8306:3306 mysql -> PORT mapping to run multiple
 15. docker build Dockerfile
 16. docker inspect
+17. docker login private-registry.io   
+
+### Deploy private registry
+1. docker run -d -p 5000:5000 --name registry registry:2
+2. docker image tag my-image localhost:5000/my-image
+3. docker push localhost:5000/my-image
+
+
 
 ## Docker images
 - When docker build image, it builds in a layered architecture. Each line of instructions in a `Dockerfile` creates a new layer
@@ -41,9 +50,9 @@
 - Overlay2
 
 ## Docker compose
-- Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration
+- `Compose` is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration
 ## Layered architecture
 ## docker registry
- - central repository of all docker images
+ - central repository of all `docker images`
 
 1. https://docs.docker.com/get-started/#what-is-a-container
