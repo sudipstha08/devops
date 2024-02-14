@@ -32,6 +32,7 @@
 18. docker run --cpus=.5 ubuntu -> limits cpu usage to 50%
 19. docker run --memory=100m ubuntu -> limits memoru usage to 100MB
 20. docker-compose up
+21. docker build -t myapp ./
 
 ### Deploy private registry
 ```
