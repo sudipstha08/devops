@@ -22,8 +22,9 @@
 9. docker pull nginx -> only pulls the image and not run the container
 10. docker run ubuntu sleep 5
 11. docker exec
-12. docker run redis:4.0  -> run specific version
-13. docker run -i container_name -> for interactive mode
+12. docker exec -it CONTAINER_ID /bin/sh
+13. docker run redis:4.0  -> run specific version
+14. docker run -i container_name -> for interactive mode
 13. docker run -it container_name -> for interactive mode plus tunnel
 14. docker run -p 8306:3306 mysql -> PORT mapping to run multiple
 15. docker build Dockerfile
@@ -33,6 +34,8 @@
 19. docker run --memory=100m ubuntu -> limits memoru usage to 100MB
 20. docker-compose up
 21. docker build -t myapp ./
+22. docker volume create vol_name
+23. docker run -- mount source=shared-stuff, target=/stuff 
 
 ### Deploy private registry
 ```
